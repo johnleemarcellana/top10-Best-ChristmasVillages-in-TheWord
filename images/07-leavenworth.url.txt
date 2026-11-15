@@ -1,0 +1,6 @@
+IMAGE: 07-leavenworth
+DIRECT IMAGE URL:
+https://upload.wikimedia.org/wikipedia/commons/f/ff/Front_St._Leavenworth%2C_WA.jpg
+
+WIKIMEDIA COMMONS SOURCE PAGE:
+https://commons.wikimedia.org/wiki/File:Front_St._Leavenworth,_WA.jpg

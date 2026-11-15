@@ -1,0 +1,6 @@
+IMAGE: 10-mousehole
+DIRECT IMAGE URL:
+https://upload.wikimedia.org/wikipedia/commons/d/df/Christmas_lights_in_Mousehole_Harbour_-_geograph.org.uk_-_653906.jpg
+
+WIKIMEDIA COMMONS SOURCE PAGE:
+https://commons.wikimedia.org/wiki/File:Christmas_lights_in_Mousehole_Harbour_-_geograph.org.uk_-_653906.jpg

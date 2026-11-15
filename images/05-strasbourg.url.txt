@@ -1,0 +1,6 @@
+IMAGE: 05-strasbourg
+DIRECT IMAGE URL:
+https://upload.wikimedia.org/wikipedia/commons/d/df/Strasbourg_Christmas_Market.jpg
+
+WIKIMEDIA COMMONS SOURCE PAGE:
+https://commons.wikimedia.org/wiki/File:Strasbourg_Christmas_Market.jpg

@@ -1,0 +1,6 @@
+IMAGE: 06-gengenbach
+DIRECT IMAGE URL:
+https://upload.wikimedia.org/wikipedia/commons/f/f0/Adventskalender_Gengenbach.jpg
+
+WIKIMEDIA COMMONS SOURCE PAGE:
+https://commons.wikimedia.org/wiki/File:Adventskalender_Gengenbach.jpg

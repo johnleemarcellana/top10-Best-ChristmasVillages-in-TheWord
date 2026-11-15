@@ -1,0 +1,6 @@
+IMAGE: 03-rothenburg
+DIRECT IMAGE URL:
+https://upload.wikimedia.org/wikipedia/commons/e/ef/Rothenburg_ob_der_Tauber_Christmas_market.JPG
+
+WIKIMEDIA COMMONS SOURCE PAGE:
+https://commons.wikimedia.org/wiki/File:Rothenburg_ob_der_Tauber_Christmas_market.JPG

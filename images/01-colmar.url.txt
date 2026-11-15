@@ -1,0 +1,6 @@
+IMAGE: 01-colmar
+DIRECT IMAGE URL:
+https://upload.wikimedia.org/wikipedia/commons/7/7e/Chalets_du_march%C3%A9_de_No%C3%ABl_de_Colmar.jpg
+
+WIKIMEDIA COMMONS SOURCE PAGE:
+https://commons.wikimedia.org/wiki/File:Chalets_du_march%C3%A9_de_No%C3%ABl_de_Colmar.jpg

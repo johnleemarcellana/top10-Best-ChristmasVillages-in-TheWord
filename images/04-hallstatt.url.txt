@@ -1,0 +1,6 @@
+IMAGE: 04-hallstatt
+DIRECT IMAGE URL:
+https://upload.wikimedia.org/wikipedia/commons/c/c8/Hallstatt_winter.jpg
+
+WIKIMEDIA COMMONS SOURCE PAGE:
+https://commons.wikimedia.org/wiki/File:Hallstatt_winter.jpg

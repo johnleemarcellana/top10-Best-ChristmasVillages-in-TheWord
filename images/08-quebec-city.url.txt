@@ -1,0 +1,6 @@
+IMAGE: 08-quebec-city
+DIRECT IMAGE URL:
+https://upload.wikimedia.org/wikipedia/commons/1/1c/Christmas_markets_in_Quebec_City.jpg
+
+WIKIMEDIA COMMONS SOURCE PAGE:
+https://commons.wikimedia.org/wiki/File:Christmas_markets_in_Quebec_City.jpg

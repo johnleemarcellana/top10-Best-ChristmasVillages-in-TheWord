@@ -1,0 +1,750 @@
+<html>
+<head>
+    <title>Top 10 Best Christmas Villages in the World</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+            color: #77716d;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            line-height: 1.8;
+        }
+
+        a {
+            color: #8b6845;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #c49b73;
+        }
+
+        .topbar {
+            width: 100%;
+            background-color: #e8d1bb;
+            min-height: 53px;
+        }
+
+        .topbar-inner {
+            width: 92%;
+            max-width: 1115px;
+            margin: auto;
+            min-height: 53px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .page-layout {
+            width: 92%;
+            max-width: 1115px;
+            margin: 12px auto 55px auto;
+            display: grid;
+            grid-template-columns: minmax(0, 828px) 244px;
+            gap: 48px;
+            align-items: start;
+        }
+
+        .simple-nav {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 65px;
+            flex-wrap: wrap;
+        }
+
+        .simple-nav a {
+            color: #765f4b;
+            font-family: "Arial Narrow", Arial, sans-serif;
+            font-size: 12px;
+            letter-spacing: 2px;
+            white-space: nowrap;
+        }
+
+        .main-title {
+            color: #624c38;
+            text-align: center;
+            font-family: "Arial Narrow", Arial, sans-serif;
+            font-size: 21px;
+            font-weight: normal;
+            letter-spacing: 1.8px;
+            line-height: 1.4;
+            margin: 18px 0 36px 0;
+        }
+
+        .hero-image {
+            width: 100%;
+            height: 492px;
+            object-fit: cover;
+            display: block;
+        }
+
+        .photo-credit {
+            font-size: 10px;
+            color: #9a9189;
+            margin-top: 7px;
+            text-align: right;
+        }
+
+        .intro-text {
+            margin: 28px 0 34px 0;
+            color: #817a75;
+            font-size: 14px;
+            line-height: 1.9;
+        }
+
+        .section-title {
+            text-align: center;
+            color: #624c38;
+            font-family: "Arial Narrow", Arial, sans-serif;
+            font-size: 20px;
+            font-weight: normal;
+            letter-spacing: 1.8px;
+            margin: 42px 0 12px 0;
+        }
+
+        .section-subtitle {
+            text-align: center;
+            color: #99918b;
+            font-size: 13px;
+            margin: 0 0 28px 0;
+        }
+
+        .destination {
+            border-bottom: 1px solid #eee9e4;
+            padding: 0 0 24px 0;
+            margin: 0 0 25px 0;
+        }
+
+        .destination summary {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            gap: 22px;
+            cursor: pointer;
+            position: relative;
+            padding-right: 28px;
+        }
+
+        .destination summary::-webkit-details-marker {
+            display: none;
+        }
+
+        .destination summary::after {
+            content: "+";
+            position: absolute;
+            right: 4px;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #b28c66;
+            font-size: 24px;
+            font-weight: normal;
+        }
+
+        .destination[open] summary::after {
+            content: "−";
+        }
+
+        .destination-photo {
+            width: 225px;
+            height: 150px;
+            object-fit: cover;
+            flex-shrink: 0;
+            display: block;
+        }
+
+        .destination-heading {
+            display: block;
+            color: #604b39;
+            font-family: "Arial Narrow", Arial, sans-serif;
+            font-size: 19px;
+            letter-spacing: 1px;
+            line-height: 1.4;
+            margin-bottom: 4px;
+            font-weight: normal;
+        }
+
+        .destination-location {
+            display: block;
+            color: #a48260;
+            font-size: 12px;
+            letter-spacing: 1px;
+            margin-bottom: 8px;
+            text-transform: uppercase;
+        }
+
+        .destination-teaser {
+            display: block;
+            color: #85807b;
+            font-size: 13px;
+            line-height: 1.7;
+            margin-right: 10px;
+        }
+
+        .click-note {
+            display: block;
+            color: #b18a63;
+            font-size: 10px;
+            letter-spacing: 1.3px;
+            margin-top: 8px;
+            text-transform: uppercase;
+        }
+
+        .destination-info {
+            margin: 18px 0 0 247px;
+            padding: 18px 20px;
+            background-color: #faf7f4;
+            border-left: 3px solid #e8d1bb;
+            color: #77716d;
+        }
+
+        .destination-info h4 {
+            color: #684f39;
+            font-size: 14px;
+            font-weight: normal;
+            letter-spacing: 1px;
+            margin: 8px 0 4px 0;
+        }
+
+        .destination-info p {
+            margin: 5px 0 12px 0;
+            font-size: 13px;
+            line-height: 1.8;
+        }
+
+        .destination-info .official-link {
+            display: inline-block;
+            margin-top: 8px;
+            padding: 7px 14px;
+            background-color: #e8d1bb;
+            color: #634b34;
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+
+        .image-credit {
+            display: block;
+            color: #9a9189;
+            font-size: 10px;
+            margin-top: 10px;
+        }
+
+        .sidebar {
+            padding-top: 0;
+            text-align: center;
+        }
+
+        .sidebar-title {
+            width: 100%;
+            height: 44px;
+            line-height: 44px;
+            background-color: #e8d1bb;
+            color: #75583b;
+            font-family: "Arial Narrow", Arial, sans-serif;
+            font-size: 11px;
+            letter-spacing: 2px;
+            font-weight: normal;
+            margin: 0 0 30px 0;
+        }
+
+        .sidebar-photo {
+            width: 232px;
+            height: 232px;
+            object-fit: cover;
+            border-radius: 50%;
+            display: block;
+            margin: 0 auto 22px auto;
+        }
+
+        .signature {
+            color: #a58a6d;
+            font-family: "Brush Script MT", "Segoe Script", cursive;
+            font-size: 37px;
+            font-style: italic;
+            font-weight: normal;
+            margin: 0 0 18px 0;
+        }
+
+        .sidebar p {
+            color: #88817b;
+            font-size: 13px;
+            line-height: 2;
+            margin: 0 6px 18px 6px;
+        }
+
+        .full-section {
+            width: 92%;
+            max-width: 1115px;
+            margin: 0 auto 42px auto;
+            padding-top: 8px;
+        }
+
+        .about-content {
+            max-width: 828px;
+            color: #7e7771;
+            line-height: 1.9;
+            font-size: 13px;
+        }
+
+        .about-content h3 {
+            color: #6c523a;
+            font-family: "Arial Narrow", Arial, sans-serif;
+            font-weight: normal;
+            letter-spacing: 1px;
+            margin: 24px 0 5px 0;
+        }
+
+        .contact-box {
+            background-color: #faf7f4;
+            padding: 22px;
+            text-align: center;
+            color: #80766e;
+        }
+
+        .footer {
+            width: 100%;
+            background-color: #e8d1bb;
+            color: #76583b;
+            text-align: center;
+            padding: 18px 0;
+            font-size: 11px;
+            letter-spacing: 1px;
+        }
+
+        .back-top {
+            position: fixed;
+            right: 28px;
+            bottom: 24px;
+            width: 48px;
+            height: 48px;
+            border-radius: 50%;
+            background-color: #f2f2f2;
+            color: #9b9691;
+            text-align: center;
+            line-height: 48px;
+            font-size: 11px;
+        }
+
+
+        .creator-line {
+            color: #76583b;
+            font-size: 12px;
+            letter-spacing: 1.4px;
+            margin: 8px 0 0 0;
+        }
+
+        .destination-info .txt-link {
+            display: inline-block;
+            margin: 12px 10px 0 0;
+            color: #8b6845;
+            font-size: 11px;
+            letter-spacing: .8px;
+            text-decoration: underline;
+        }
+
+        .sidebar a:hover,
+
+        .creator-credit {
+            color: #a17b55;
+            font-size: 12px;
+            letter-spacing: 1px;
+            margin-top: 16px;
+        }
+
+        .photo-credit a {
+            text-decoration: underline;
+        }
+
+        .destination summary:focus {
+            outline: 2px solid #d8b995;
+            outline-offset: 4px;
+        }
+
+        @media screen and (max-width: 900px) {
+            .topbar-inner {
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 10px 0;
+            }
+
+            .simple-nav {
+                gap: 15px 25px;
+            }
+
+            .social, .search {
+                min-width: auto;
+            }
+
+        @media screen and (max-width: 560px) {
+            .main-title {
+                font-size: 18px;
+                margin: 20px 0;
+            }
+
+            .destination summary {
+                display: block;
+                padding-right: 24px;
+            }
+
+            .destination-photo {
+                width: 100%;
+                height: 210px;
+                margin-bottom: 12px;
+            }
+
+            .destination-info {
+                margin: 14px 0 0 0;
+            }
+
+            .sidebar-photo {
+                width: 205px;
+                height: 205px;
+            }
+    </style>
+</head>
+
+<body>
+
+<a name="home"></a>
+
+<div class="topbar">
+    <div class="topbar-inner">
+        <div class="simple-nav">
+            <a href="#home">HOME</a>
+            <a href="#destinations">TOP 10 DESTINATIONS</a>
+            <a href="#about">ABOUT US</a>
+        </div>
+    </div>
+</div>
+
+<div class="page-layout">
+
+    <main>
+        <h1 class="main-title">TOP 10 BEST CHRISTMAS VILLAGES IN THE WORLD</h1>
+
+        <a name="gallery"></a>
+        <img class="hero-image"
+             src="images/hero-christmas-rink.png"
+             alt="Outdoor Christmas ice rink at Place D'Youville in Quebec City">
+
+        <div class="photo-credit">
+            Photo: Wilfredor / Wikimedia Commons — CC0 1.0. <a href="https://commons.wikimedia.org/wiki/File:Ice_rink_at_Place_D%E2%80%99Youville,_Quebec_City.jpg" target="_blank">Photo source</a>
+        </div>
+
+        <div class="intro-text">
+            <p>Another Christmas season is on its way, and the world is getting ready to glow with beautiful lights, festive markets, snowy streets, and unforgettable holiday moments. From charming European villages to magical winter destinations, these places make Christmas feel like a real-life fairytale.</p>
+            <p>Take a little trip with us and discover ten of the most beautiful Christmas destinations in the world. <b>Click on any picture or destination name below to reveal its story, Christmas highlights, and travel information.</b></p>
+        </div>
+
+        <a name="destinations"></a>
+        <h2 class="section-title">TOP 10 CHRISTMAS VILLAGES IN THE WORLD</h2>
+        <p class="section-subtitle">Choose a destination and click to read more about its Christmas magic.</p>
+
+        <details class="destination" id="colmar">
+            <summary>
+                <img class="destination-photo"
+                     src="https://upload.wikimedia.org/wikipedia/commons/7/7e/Chalets_du_march%C3%A9_de_No%C3%ABl_de_Colmar.jpg"
+                     alt="Christmas market in Colmar, France">
+                <span>
+                    <span class="destination-heading">1. COLMAR</span>
+                    <span class="destination-location">Alsace, France</span>
+                    <span class="destination-teaser">Colorful half-timbered houses, canals, glowing streets, and traditional Christmas markets make Colmar look like a storybook town.</span>
+                    <span class="click-note">Click to discover Colmar</span>
+                </span>
+            </summary>
+            <div class="destination-info">
+                <h4>ABOUT COLMAR</h4>
+                <p>Colmar is a charming town in the Alsace region of France. Its old town is known for colorful historic buildings, narrow streets, canals, and beautiful architecture. During Christmas, decorations and lights transform the town into a festive winter destination.</p>
+                <h4>CHRISTMAS HIGHLIGHTS</h4>
+                <p>Visitors can explore several Christmas markets around the historic center, browse handmade ornaments and gifts, taste seasonal Alsatian treats, and enjoy the decorated streets around Little Venice and the old town squares.</p>
+                <h4>WHY VISIT?</h4>
+                <p>Colmar is a wonderful choice for travelers who want a traditional European Christmas atmosphere, beautiful architecture, festive shopping, and romantic evening walks.</p>
+                <a class="official-link" href="https://www.noel-colmar.com/en/" target="_blank">VISIT COLMAR CHRISTMAS WEBSITE</a>
+                <span class="image-credit">Photo: Tangopaso / Wikimedia Commons — Public domain. <a href="https://commons.wikimedia.org/wiki/File:Chalets_du_march%C3%A9_de_No%C3%ABl_de_Colmar.jpg" target="_blank">Photo source and license</a></span>
+            </div>
+        </details>
+
+        <details class="destination" id="rovaniemi">
+            <summary>
+                <img class="destination-photo"
+                     src="https://upload.wikimedia.org/wikipedia/commons/1/10/Santa_Claus_Village.jpg"
+                     alt="Santa Claus Village in Rovaniemi, Finland">
+                <span>
+                    <span class="destination-heading">2. SANTA CLAUS VILLAGE</span>
+                    <span class="destination-location">Rovaniemi, Finland</span>
+                    <span class="destination-teaser">A magical Arctic destination where visitors can meet Santa Claus, cross the Arctic Circle, and enjoy a snowy holiday adventure.</span>
+                    <span class="click-note">Click to discover Santa Claus Village</span>
+                </span>
+            </summary>
+            <div class="destination-info">
+                <h4>ABOUT SANTA CLAUS VILLAGE</h4>
+                <p>Santa Claus Village is located in Rovaniemi in Finnish Lapland, close to the Arctic Circle. It is one of the best-known Christmas attractions in the world and welcomes visitors throughout the year.</p>
+                <h4>CHRISTMAS HIGHLIGHTS</h4>
+                <p>Guests can meet Santa Claus, visit Santa's Main Post Office, send postcards with a special Arctic Circle postmark, take photos at the Arctic Circle line, and enjoy winter activities such as reindeer experiences.</p>
+                <h4>WHY VISIT?</h4>
+                <p>This destination is perfect for families, children, and anyone who dreams of experiencing a snowy Christmas in the home of Santa Claus.</p>
+                <a class="official-link" href="https://santaclausvillage.info/" target="_blank">VISIT SANTA CLAUS VILLAGE</a>
+                <span class="image-credit">Photo: Floppyjb / Wikimedia Commons — CC BY-SA 4.0. <a href="https://commons.wikimedia.org/wiki/File:Santa_Claus_Village.jpg" target="_blank">Photo source and license</a></span>
+            </div>
+        </details>
+
+        <details class="destination" id="rothenburg">
+            <summary>
+                <img class="destination-photo"
+                     src="https://upload.wikimedia.org/wikipedia/commons/e/ef/Rothenburg_ob_der_Tauber_Christmas_market.JPG"
+                     alt="Christmas market in Rothenburg ob der Tauber, Germany">
+                <span>
+                    <span class="destination-heading">3. ROTHENBURG OB DER TAUBER</span>
+                    <span class="destination-location">Bavaria, Germany</span>
+                    <span class="destination-teaser">A medieval town filled with historic towers, cobblestone streets, traditional German decorations, and a beloved Christmas market.</span>
+                    <span class="click-note">Click to discover Rothenburg</span>
+                </span>
+            </summary>
+            <div class="destination-info">
+                <h4>ABOUT ROTHENBURG</h4>
+                <p>Rothenburg ob der Tauber is a historic town in Bavaria, Germany. Its preserved medieval walls, half-timbered houses, towers, and market square give it a distinctive old-world atmosphere.</p>
+                <h4>CHRISTMAS HIGHLIGHTS</h4>
+                <p>The Reiterlesmarkt brings festive stalls, seasonal food, handmade decorations, and Christmas gifts to the historic town center. Visitors can also explore the German Christmas Museum and traditional Christmas shops.</p>
+                <h4>WHY VISIT?</h4>
+                <p>It is ideal for people who want to experience a classic German Christmas market in a medieval setting.</p>
+                <a class="official-link" href="https://www.rothenburg-tourismus.de/en/" target="_blank">VISIT ROTHENBURG TOURISM</a>
+                <span class="image-credit">Photo: Mosquitivy / Wikimedia Commons — see file page for license. <a href="https://commons.wikimedia.org/wiki/File:Rothenburg_ob_der_Tauber_Christmas_market.JPG" target="_blank">Photo source and license</a></span>
+            </div>
+        </details>
+
+        <details class="destination" id="hallstatt">
+            <summary>
+                <img class="destination-photo"
+                     src="https://upload.wikimedia.org/wikipedia/commons/c/c8/Hallstatt_winter.jpg"
+                     alt="Hallstatt village in winter, Austria">
+                <span>
+                    <span class="destination-heading">4. HALLSTATT</span>
+                    <span class="destination-location">Upper Austria, Austria</span>
+                    <span class="destination-teaser">A peaceful lakeside village surrounded by snow-covered mountains, Alpine houses, and beautiful winter scenery.</span>
+                    <span class="click-note">Click to discover Hallstatt</span>
+                </span>
+            </summary>
+            <div class="destination-info">
+                <h4>ABOUT HALLSTATT</h4>
+                <p>Hallstatt is a picturesque village beside Lake Hallstatt in Austria's Salzkammergut region. It is admired for its traditional houses, mountain views, waterfront scenery, and peaceful atmosphere.</p>
+                <h4>CHRISTMAS HIGHLIGHTS</h4>
+                <p>During the holiday season, the historic market square is decorated for Christmas. Visitors can enjoy local crafts, seasonal food, festive lights, and the beautiful winter scenery around the lake.</p>
+                <h4>WHY VISIT?</h4>
+                <p>Hallstatt is a lovely destination for travelers who prefer a quiet, scenic, and romantic winter holiday surrounded by Alpine landscapes.</p>
+                <a class="official-link" href="https://www.hallstatt.net/" target="_blank">VISIT HALLSTATT TOURISM</a>
+                <span class="image-credit">Photo: Thomas Fabian / Wikimedia Commons — see file page for license. <a href="https://commons.wikimedia.org/wiki/File:Hallstatt_winter.jpg" target="_blank">Photo source and license</a></span>
+            </div>
+        </details>
+
+        <details class="destination" id="strasbourg">
+            <summary>
+                <img class="destination-photo"
+                     src="https://upload.wikimedia.org/wikipedia/commons/d/df/Strasbourg_Christmas_Market.jpg"
+                     alt="Illuminated Strasbourg Christmas market entrance">
+                <span>
+                    <span class="destination-heading">5. STRASBOURG</span>
+                    <span class="destination-location">Alsace, France</span>
+                    <span class="destination-teaser">Known as the Capital of Christmas, Strasbourg is famous for its historic market, giant Christmas tree, and spectacular decorations.</span>
+                    <span class="click-note">Click to discover Strasbourg</span>
+                </span>
+            </summary>
+            <div class="destination-info">
+                <h4>ABOUT STRASBOURG</h4>
+                <p>Strasbourg is a historic city in the Alsace region of France. Its old town, traditional architecture, and festive streets make it one of Europe's best-known Christmas destinations.</p>
+                <h4>CHRISTMAS HIGHLIGHTS</h4>
+                <p>The Christkindelsmärik is the city's famous Christmas market. Visitors can browse wooden stalls, enjoy Alsatian specialties, shop for ornaments, and see the large Christmas tree at Place Kléber.</p>
+                <h4>WHY VISIT?</h4>
+                <p>Strasbourg is a great choice for travelers who want a lively Christmas celebration with a long-standing market tradition and impressive city decorations.</p>
+                <a class="official-link" href="https://noel.strasbourg.eu/en/" target="_blank">VISIT STRASBOURG CHRISTMAS WEBSITE</a>
+                <span class="image-credit">Photo: Romynine / Wikimedia Commons — see file page for license. <a href="https://commons.wikimedia.org/wiki/File:Strasbourg_Christmas_Market.jpg" target="_blank">Photo source and license</a></span>
+            </div>
+        </details>
+
+        <details class="destination" id="gengenbach">
+            <summary>
+                <img class="destination-photo"
+                     src="https://upload.wikimedia.org/wikipedia/commons/f/f0/Adventskalender_Gengenbach.jpg"
+                     alt="Gengenbach town hall Advent calendar in Germany">
+                <span>
+                    <span class="destination-heading">6. GENGENBACH</span>
+                    <span class="destination-location">Black Forest, Germany</span>
+                    <span class="destination-teaser">A charming Black Forest town famous for turning its historic town hall into one of the world's largest Advent calendars.</span>
+                    <span class="click-note">Click to discover Gengenbach</span>
+                </span>
+            </summary>
+            <div class="destination-info">
+                <h4>ABOUT GENGENBACH</h4>
+                <p>Gengenbach is a picturesque town in Germany's Black Forest region. Its historic streets, traditional buildings, and cozy town center create a welcoming atmosphere during the Christmas season.</p>
+                <h4>CHRISTMAS HIGHLIGHTS</h4>
+                <p>The town hall becomes a giant Advent calendar. Each day in December, another decorated window is revealed, creating a special seasonal attraction for visitors.</p>
+                <h4>WHY VISIT?</h4>
+                <p>Gengenbach is perfect for visitors who enjoy small-town Christmas traditions, historic architecture, and a warm, intimate holiday atmosphere.</p>
+                <a class="official-link" href="https://www.gengenbach.info/" target="_blank">VISIT GENGENBACH TOURISM</a>
+                <span class="image-credit">Photo: peter Buck / Wikimedia Commons — Public domain. <a href="https://commons.wikimedia.org/wiki/File:Adventskalender_Gengenbach.jpg" target="_blank">Photo source</a></span>
+            </div>
+        </details>
+
+        <details class="destination" id="leavenworth">
+            <summary>
+                <img class="destination-photo"
+                     src="https://upload.wikimedia.org/wikipedia/commons/f/ff/Front_St._Leavenworth%2C_WA.jpg"
+                     alt="Christmas lights in Leavenworth, Washington">
+                <span>
+                    <span class="destination-heading">7. LEAVENWORTH</span>
+                    <span class="destination-location">Washington, United States</span>
+                    <span class="destination-teaser">A Bavarian-inspired mountain town that glows with hundreds of thousands of Christmas lights during the winter season.</span>
+                    <span class="click-note">Click to discover Leavenworth</span>
+                </span>
+            </summary>
+            <div class="destination-info">
+                <h4>ABOUT LEAVENWORTH</h4>
+                <p>Leavenworth is a mountain town in Washington State, known for its Bavarian-inspired buildings, mountain scenery, festive storefronts, and seasonal events.</p>
+                <h4>CHRISTMAS HIGHLIGHTS</h4>
+                <p>The Village of Lights transforms the town with more than half a million lights. Holiday activities can include live music, carolers, food vendors, visits from Santa, and seasonal events around Front Street Park.</p>
+                <h4>WHY VISIT?</h4>
+                <p>Leavenworth is a wonderful destination for visitors who want a bright Christmas celebration, a mountain-town setting, and a festive Bavarian atmosphere.</p>
+                <a class="official-link" href="https://leavenworth.org/christmastown/" target="_blank">VISIT LEAVENWORTH CHRISTMASTOWN</a>
+                <span class="image-credit">Photo: Steven Pavlov / Wikimedia Commons — CC BY-SA 3.0. <a href="https://commons.wikimedia.org/wiki/File:Front_St._Leavenworth,_WA.jpg" target="_blank">Photo source and license</a></span>
+            </div>
+        </details>
+
+        <details class="destination" id="quebec">
+            <summary>
+                <img class="destination-photo"
+                     src="https://upload.wikimedia.org/wikipedia/commons/1/1c/Christmas_markets_in_Quebec_City.jpg"
+                     alt="Christmas market in Quebec City, Canada">
+                <span>
+                    <span class="destination-heading">8. QUEBEC CITY</span>
+                    <span class="destination-location">Quebec, Canada</span>
+                    <span class="destination-teaser">Historic streets, European-style architecture, snowy scenery, and a popular German Christmas Market make Quebec City a holiday favorite.</span>
+                    <span class="click-note">Click to discover Quebec City</span>
+                </span>
+            </summary>
+            <div class="destination-info">
+                <h4>ABOUT QUEBEC CITY</h4>
+                <p>Quebec City is known for its historic Old Town, stone buildings, charming lanes, and winter atmosphere. Its European-inspired character makes it especially attractive during Christmas.</p>
+                <h4>CHRISTMAS HIGHLIGHTS</h4>
+                <p>The German Christmas Market features decorated wooden stalls, seasonal food, handmade gifts, music, and festive activities. Visitors can also explore Petit-Champlain and the old town's decorated streets.</p>
+                <h4>WHY VISIT?</h4>
+                <p>It is a great option for travelers who want a European-style Christmas market experience in North America, with the added charm of a snowy historic city.</p>
+                <a class="official-link" href="https://www.quebec-cite.com/en" target="_blank">VISIT QUEBEC CITY TOURISM</a>
+                <span class="image-credit">Photo: Wilfredor / Wikimedia Commons — CC0. <a href="https://commons.wikimedia.org/wiki/File:Christmas_markets_in_Quebec_City.jpg" target="_blank">Photo source</a></span>
+            </div>
+        </details>
+
+        <details class="destination" id="valkenburg">
+            <summary>
+                <img class="destination-photo"
+                     src="https://upload.wikimedia.org/wikipedia/commons/a/a9/Valkenburg_-_Fluweelengrot_-_Christmas_market.jpg"
+                     alt="Underground Christmas market in Valkenburg, Netherlands">
+                <span>
+                    <span class="destination-heading">9. VALKENBURG</span>
+                    <span class="destination-location">Limburg, Netherlands</span>
+                    <span class="destination-teaser">A unique Christmas destination where festive markets, decorations, and holiday stalls are set inside historic underground caves.</span>
+                    <span class="click-note">Click to discover Valkenburg</span>
+                </span>
+            </summary>
+            <div class="destination-info">
+                <h4>ABOUT VALKENBURG</h4>
+                <p>Valkenburg is a town in the Limburg region of the Netherlands. It is especially popular during the Christmas season because of its unusual underground holiday attractions.</p>
+                <h4>CHRISTMAS HIGHLIGHTS</h4>
+                <p>The Gemeentegrot and Fluweelengrot caves host Christmas markets with decorated stalls, lights, ornaments, and seasonal products. The town also features festive streets and holiday events.</p>
+                <h4>WHY VISIT?</h4>
+                <p>Valkenburg is ideal for visitors looking for a different kind of Christmas market experience, combining history, cave scenery, shopping, and holiday decorations.</p>
+                <a class="official-link" href="https://www.kerststadvalkenburg.nl/en/" target="_blank">VISIT CHRISTMAS TOWN VALKENBURG</a>
+                <span class="image-credit">Photo: Pitlane02 / Wikimedia Commons — see file page for license. <a href="https://commons.wikimedia.org/wiki/File:Valkenburg_-_Fluweelengrot_-_Christmas_market.jpg" target="_blank">Photo source and license</a></span>
+            </div>
+        </details>
+
+        <details class="destination" id="mousehole">
+            <summary>
+                <img class="destination-photo"
+                     src="https://upload.wikimedia.org/wikipedia/commons/d/df/Christmas_lights_in_Mousehole_Harbour_-_geograph.org.uk_-_653906.jpg"
+                     alt="Christmas lights illuminating Mousehole Harbour in England">
+                <span>
+                    <span class="destination-heading">10. MOUSEHOLE</span>
+                    <span class="destination-location">Cornwall, England</span>
+                    <span class="destination-teaser">A small coastal fishing village that becomes famous for its colorful Christmas lights reflected across the harbor.</span>
+                    <span class="click-note">Click to discover Mousehole</span>
+                </span>
+            </summary>
+            <div class="destination-info">
+                <h4>ABOUT MOUSEHOLE</h4>
+                <p>Mousehole is a traditional fishing village in Cornwall, England. It is known for its picturesque harbor, narrow lanes, coastal views, and close-knit community.</p>
+                <h4>CHRISTMAS HIGHLIGHTS</h4>
+                <p>The Mousehole Harbour Christmas Lights display illuminates the harbor with colorful festive designs. The reflections on the water create a memorable scene for visitors and local residents.</p>
+                <h4>WHY VISIT?</h4>
+                <p>Mousehole is a lovely choice for travelers who prefer a small coastal village and a special community Christmas tradition instead of a large city market.</p>
+                <a class="official-link" href="https://mouseholelights.org.uk/" target="_blank">VISIT MOUSEHOLE CHRISTMAS LIGHTS</a>
+                <span class="image-credit">Photo: Bob Jones / Wikimedia Commons — CC BY-SA 2.0. <a href="https://commons.wikimedia.org/wiki/File:Christmas_lights_in_Mousehole_Harbour_-_geograph.org.uk_-_653906.jpg" target="_blank">Photo source and license</a></span>
+            </div>
+        </details>
+
+        <div class="intro-text">
+            <p><b>Travel reminder:</b> Christmas markets and light displays usually operate during a limited seasonal period. Dates, opening hours, and activities can change each year, so always check the official destination website before making travel plans.</p>
+        </div>
+    </main>
+
+    <aside class="sidebar">
+        <a href="#about"><h2 class="sidebar-title">ABOUT US</h2></a>
+        <img class="sidebar-photo"
+             src="images/hero-christmas-rink.png"
+             alt="Christmas ice rink">
+        <h2 class="signature">Christmas Explorer</h2>
+        <p class="creator-credit">CREATED BY: JOHN LEE MARCELLANA</p>
+        <p>Welcome to Christmas Village Explorer! This website introduces ten beautiful destinations known for their Christmas atmosphere, festive decorations, and holiday traditions.</p>
+        <p>Click each destination to discover its story, Christmas highlights, and official tourism information.</p>
+    </aside>
+
+</div>
+
+<a name="about"></a>
+<div class="full-section">
+    <h2 class="section-title">A LITTLE MORE ABOUT US</h2>
+
+    <div class="about-content">
+        <h3 id="about-who">WHO WE ARE</h3>
+        <p>This website project was created by <b>John Lee Marcellana</b>. It is designed as a simple and informative guide to Christmas destinations around the world.</p>
+        <p>Christmas Village Explorer is an educational travel website created for people who enjoy discovering beautiful destinations and learning about holiday traditions. This website brings together ten places known for their Christmas atmosphere, winter scenery, festive markets, and special seasonal experiences.</p>
+
+        <h3 id="about-mission">OUR MISSION</h3>
+        <p>Our mission is to introduce readers to memorable Christmas destinations and provide simple information that can help them explore each place. We want to make travel discovery enjoyable, easy to understand, and inspiring for students, families, and holiday lovers.</p>
+
+        <h3 id="about-vision">OUR VISION</h3>
+        <p>Our vision is to encourage curiosity about the world and appreciation for different cultures. We hope this website inspires readers to learn about new places, respect local traditions, and create meaningful travel memories.</p>
+
+        <h3 id="about-story">WHY WE CREATED THIS WEBSITE</h3>
+        <p>Christmas is celebrated in many different ways around the world. Some towns are known for their historic Christmas markets, while others are famous for Santa experiences, underground markets, winter scenery, or colorful harbor lights. We created this website to bring these destinations together in one simple travel guide.</p>
+
+        <h3 id="about-contents">WHAT YOU CAN FIND HERE</h3>
+        <p>Readers can explore ten destinations, view real photographs, open each destination's information, discover Christmas highlights, and visit official tourism websites for additional details. The website also includes travel reminders for people who may want to plan a holiday trip.</p>
+
+        <h3>OUR LOVE FOR CHRISTMAS TRADITIONS</h3>
+        <p>We appreciate the traditions that make the holiday season special: Christmas lights, handmade ornaments, local food, music, markets, decorated streets, and community celebrations. These traditions show how people from different places share the spirit of the season.</p>
+
+        <h3 id="about-responsible">OUR COMMITMENT TO RESPONSIBLE TRAVEL</h3>
+        <p>We encourage visitors to respect local communities, follow event rules, support local shops and artisans, and keep public spaces clean. Always check official sources for updated schedules, prices, opening hours, and visitor guidelines.</p>
+
+        <h3>WHO CAN USE THIS WEBSITE?</h3>
+        <p>Students can use this website as a starting point for travel research and school projects. Families and travelers can explore the list when looking for holiday destinations. Anyone who loves Christmas can use this guide to discover new places and learn about different celebrations.</p>
+
+        <h3 id="about-disclaimer">WEBSITE DISCLAIMER</h3>
+        <p>Christmas Village Explorer is an independent educational travel guide and is not officially connected with the destinations listed. Destination information, events, opening hours, and visitor policies may change. Please visit the official websites linked in each destination section before planning a trip. Photographs are credited to their respective creators and linked to their source pages.</p>
+    </div>
+</div>
+
+<div class="footer">
+    <p><b>TOP 10 BEST CHRISTMAS VILLAGES IN THE WORLD</b></p>
+    <p>CREATED BY: JOHN LEE MARCELLANA</p>
+    <p>© 2026 CHRISTMAS VILLAGE EXPLORER</p>
+</div>
+
+<a class="back-top" href="#home">TOP</a>
+
+</body>
+</html>

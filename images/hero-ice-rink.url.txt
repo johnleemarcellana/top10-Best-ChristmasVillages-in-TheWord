@@ -1,0 +1,3 @@
+LOCAL HERO IMAGE: hero-christmas-rink.png
+This photo was cropped from the user-provided website design reference screenshot.
+It is included locally in this ZIP and does not need an internet connection.

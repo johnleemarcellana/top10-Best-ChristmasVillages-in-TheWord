@@ -1,0 +1,6 @@
+IMAGE: 02-santa-claus-village
+DIRECT IMAGE URL:
+https://upload.wikimedia.org/wikipedia/commons/1/10/Santa_Claus_Village.jpg
+
+WIKIMEDIA COMMONS SOURCE PAGE:
+https://commons.wikimedia.org/wiki/File:Santa_Claus_Village.jpg
